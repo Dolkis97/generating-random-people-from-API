@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+  font-family: sans-serif;
+}
+.userList{
+  background-color: #eee;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.user_name{
+  align-self: center;
+}
+.user{
+  flex-direction: row;
+  flex-basis: 30%;
+  display: flex;
+}
+.user__image{
+  padding: 20px;
+  border-radius: 50%;
+}
